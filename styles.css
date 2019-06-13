@@ -1,0 +1,69 @@
+html {
+    Background-image: url(img/BG.png);
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+/*    margin: 40px;*/
+}
+
+p {
+    color: white;
+    text-align: center;
+/*    margin: -45px;*/
+    padding: 14px 16px;
+} 
+
+}
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.leftLinks {
+    width: 20%;
+    display: flex;
+}
+
+.brand {
+    margin-right: 10%; 
+}
+
+li {
+    display: inline-block''
+}
+
+li a {
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+.tracks {
+    float: left;
+}
+.genre {
+    float: left;
+}
+.contact {
+    float: right;
+}
